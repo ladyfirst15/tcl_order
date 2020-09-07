@@ -38,7 +38,9 @@ logging:
 server:
   port: 8081
 
-
+api:
+  url:
+    delivery: http://localhost:8082
 
 ---
 
