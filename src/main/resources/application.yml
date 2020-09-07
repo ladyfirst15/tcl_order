@@ -40,7 +40,7 @@ server:
 
 api:
   url:
-    delivery: http://localhost:8082
+    cook: http://localhost:8082
 
 ---
 
