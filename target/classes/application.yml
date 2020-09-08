@@ -38,7 +38,9 @@ logging:
 server:
   port: 8081
 
-
+api:
+  url:
+    cook: http://localhost:8082
 
 ---
 
@@ -65,3 +67,6 @@ spring:
         event-out:
           destination: menu
           contentType: application/json
+api:
+  url:
+    cook: http://cook:8080

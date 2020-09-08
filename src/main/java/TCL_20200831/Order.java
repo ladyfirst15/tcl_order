@@ -46,6 +46,7 @@ public class Order {
         System.out.println("######46######");
 
         cancellation.setOrderId(this.getId());
+        cancellation.setCustomerId(this.getCustomerId());
         cancellation.setStatus("ORDER_CANCELED");
 
         System.out.println("######50######");
